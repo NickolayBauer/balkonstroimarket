@@ -29,33 +29,33 @@
 /*  Fonts  */
 @font-face {
     font-family: 'lato-bold';
-    src: url('balkonstroimarket/fonts/lato-bold.eot');
-    src: url('balkonstroimarket/fonts/lato-bold.eot?#iefix') format('embedded-opentype'),
-         url('balkonstroimarket/fonts/lato-bold.woff') format('woff'),
-         url('balkonstroimarket/fonts/lato-bold.ttf') format('truetype'),
-         url('balkonstroimarket/fonts/lato-bold.svg#LatoBold') format('svg');
+    src: url('/fonts/lato-bold.eot');
+    src: url('/fonts/lato-bold.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/lato-bold.woff') format('woff'),
+         url('/fonts/lato-bold.ttf') format('truetype'),
+         url('/fonts/lato-bold.svg#LatoBold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'lato-regular';
-    src: url('balkonstroimarket/fonts/lato-regular.eot');
-    src: url('balkonstroimarket/fonts/lato-regular.eot?#iefix') format('embedded-opentype'),
-         url('balkonstroimarket/fonts/lato-regular.woff') format('woff'),
-         url('balkonstroimarket/fonts/lato-regular.ttf') format('truetype'),
-         url('balkonstroimarket/fonts/lato-regular.svg#LatRegular') format('svg');
+    src: url('/fonts/lato-regular.eot');
+    src: url('/fonts/lato-regular.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/lato-regular.woff') format('woff'),
+         url('/fonts/lato-regular.ttf') format('truetype'),
+         url('/fonts/lato-regular.svg#LatRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'p22_corinthia';
-    src: url('balkonstroimarket/fonts/p22_corinthia.eot');
-    src: url('balkonstroimarket/fonts/p22_corinthia.eot?#iefix') format('embedded-opentype'),
-         url('balkonstroimarket/fonts/p22_corinthia.woff') format('woff'),
-         url('balkonstroimarket/fonts/p22_corinthia.ttf') format('truetype'),
-         url('balkonstroimarket/fonts/p22_corinthia.svg#P22Corinthia') format('svg');
+    src: url('/fonts/p22_corinthia.eot');
+    src: url('/fonts/p22_corinthia.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/p22_corinthia.woff') format('woff'),
+         url('/fonts/p22_corinthia.ttf') format('truetype'),
+         url('/fonts/p22_corinthia.svg#P22Corinthia') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -137,12 +137,12 @@ header a.hamburger{
     margin-top: 41px;
     width: 24px;
     height: 19px;
-    background: url('balkonstroimarket/img/hamburger_icon.png') no-repeat;
+    background: url('/img/hamburger_icon.png') no-repeat;
 }
 
 header a.hamburger.opned{
     width: 19px;
-    background: url('balkonstroimarket/img/close_menu_icon.png') no-repeat;
+    background: url('/img/close_menu_icon.png') no-repeat;
 }
 
 
@@ -207,7 +207,7 @@ header nav .login_btn:hover{
     width: 100%;
     height: 900px;
     position: relative;
-    background: url('balkonstroimarket/img/hero.jpg') no-repeat bottom center;
+    background: url('/img/hero.jpg') no-repeat bottom center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -301,7 +301,7 @@ header nav .login_btn:hover{
     width: 26px;
     height: 26px;
     float: right;
-    background: url('balkonstroimarket/img/advanced_search_inactive.png') no-repeat;
+    background: url('/img/advanced_search_inactive.png') no-repeat;
     margin-top: 37px;
 
     transition: all .2s linear;
@@ -311,11 +311,11 @@ header nav .login_btn:hover{
 }
 
 .search .advanced_search_icon:hover{
-    background: url('balkonstroimarket/img/advanced_search_hover.png') no-repeat;
+    background: url('/img/advanced_search_hover.png') no-repeat;
 }
 
 .search .advanced_search_icon.active{
-    background: url('balkonstroimarket/img/advanced_search_active.png') no-repeat;
+    background: url('/img/advanced_search_active.png') no-repeat;
 }
 
 
@@ -340,7 +340,7 @@ header nav .login_btn:hover{
     display: block;
     width: 14px;
     height: 9px;
-    background: url('balkonstroimarket/img/search_arrow.png') no-repeat;
+    background: url('/img/search_arrow.png') no-repeat;
     position: absolute;
     top: -8px;
     right: 6px;
@@ -362,7 +362,7 @@ header nav .login_btn:hover{
 
 .search .advanced_search #check_in_date,
 .search .advanced_search #check_out_date{
-    background: url('balkonstroimarket/img/calendar_icon.png') no-repeat;
+    background: url('/img/calendar_icon.png') no-repeat;
     background-position: 484px 50%;
     padding: 0 100px 0 20px;
     width: 429px;
@@ -661,7 +661,7 @@ footer ul li.about > ul > li:last-child{
 }
 
 footer ul li.about > ul > li a{
-    background: url('balkonstroimarket/img/social_media.png') no-repeat;
+    background: url('/img/social_media.png') no-repeat;
 }
 
 footer ul li.about > ul > li a.facebook{
@@ -748,7 +748,7 @@ footer .copyrights a.ph_link{
 
     .search .advanced_search #check_in_date,
     .search .advanced_search #check_out_date{
-        background: url('balkonstroimarket/img/calendar_icon.png') no-repeat;
+        background: url('/img/calendar_icon.png') no-repeat;
         background-position: 95.08840864440079% 50%;
     }
 
@@ -913,7 +913,7 @@ footer .copyrights a.ph_link{
 
     .search .advanced_search #check_in_date,
     .search .advanced_search #check_out_date{
-        background: url('balkonstroimarket/img/calendar_icon.png') no-repeat;
+        background: url('/img/calendar_icon.png') no-repeat;
         background-position: 95.08840864440079% 50%;
     }
 
